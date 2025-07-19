@@ -127,5 +127,40 @@ footer .fa-square-facebook:hover{
 footer .fa-square-instagram:hover{
     transform:translateX(-10px);
     box-shadow: 5px 5px 5px #7fca9a;
-    
+}
+@media screen and (max-width:600px){
+    .img-home img{
+    margin-right: 0;
+    margin-top: 10px;
+    }
+}
+@media screen and (max-width:300px){
+   .home{
+    padding: 40px 0;
+}
+.text-home{
+    margin-top: 30px;
+    margin-left:0;
+}
+.services{
+    padding: 40px 0;
+}
+.introduce{
+    margin-left:0;
+}
+.introduce p{
+    font-size:18px;
+}
+.introduce h4{
+    font-size:20px;
+}
+
+.contactUs textarea{
+    width:300px;
+    height:150px;
+}
+footer{
+    background-color:#87cfeb69;
+    margin-top: 60px;
+    padding: 10px 0;
 }
